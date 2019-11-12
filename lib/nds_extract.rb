@@ -128,7 +128,7 @@ source.each do |director_info|
         :studio => movie[:studio], :worldwide_gross => movie[:worldwide_gross], :director_name => director_info[:name]}
           result.push([movie_info])
 
-          binding.pry
+          #binding.pry
 
       end
 
