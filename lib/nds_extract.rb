@@ -127,6 +127,8 @@ source.each do |director_info|
           movie_info = {:title => movie[:title], :director_name => director_info[:name]}
           result.push([movie_info])
 
+          binding.pry
+
       end
 
     end
