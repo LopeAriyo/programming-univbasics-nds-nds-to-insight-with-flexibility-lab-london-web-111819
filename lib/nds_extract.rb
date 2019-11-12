@@ -125,7 +125,7 @@ source.each do |director_info|
     movie.each do |key, value|
       if key == :title
 
-          movie_info = { :title => movie[:title], :director_name => director_info[:name]}
+          movie_info = {:title => movie[:title], :director_name => director_info[:name]}
           result.push([movie_info])
 
           binding.pry
